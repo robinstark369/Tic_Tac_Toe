@@ -190,7 +190,7 @@ def particle_effect(x, y): #Function for particle animation
 
 def draw_end_screen(message):
     global font
-    f1 = pygame.font.Font('Roboto-Bold.ttf', 100)
+    f1 = pygame.font.Font('Roboto-Light.ttf', 100)
     end_screen = f1.render(message, True, white)
     restart = font.render('press Space', True, white)
     window.blit(end_screen, (165, 195))
